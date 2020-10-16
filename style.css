@@ -1,0 +1,46 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(45deg, #990000, #ff00ff);
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.box {
+  height:100px;
+  width:200px;
+  margin-left: auto;
+  text-align: center;                        
+}
+
+
+.box1 {
+  background-color: black;
+  flex-grow: 2;
+  order: 4;
+}
+
+.box2 {
+  background-color: yellow;
+  flex-grow: 1;
+  order: 3;
+}
+
+.box3 {
+  background-color: red;
+  flex-grow: 1;
+  order: 2;
+}
+
+.box4 {
+  background-color: blue;
+  flex-grow: 1;
+  order: 1;
+}
